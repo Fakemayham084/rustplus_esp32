@@ -51,13 +51,14 @@ void RustPlus::getTeamInfo() {
 }
 
 void RustPlus::getMap() {
-    rustplus_AppRequest request = rustplus_AppRequest_init_zero;
-    request.seq = seq;
-    request.playerId = steamID;
-    request.playerToken = playerTOKEN;
-    request.getMap = rustplus_AppEmpty_init_default;
-    request.has_getMap = true;
-    sendRequest(request);
+   // rustplus_AppRequest request = rustplus_AppRequest_init_zero;
+   // request.seq = seq;
+   // request.playerId = steamID;
+   // request.playerToken = playerTOKEN;
+   // request.getMap = rustplus_AppEmpty_init_default;
+   // request.has_getMap = true;
+   // sendRequest(request);
+   Serial.println("NOT ADDED DUE TO ERROR"); //i hate this, i hate this, i hate this, i hate this
 }
 
 void RustPlus::sendRequest(rustplus_AppRequest request) {
