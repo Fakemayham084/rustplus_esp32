@@ -2,4 +2,4 @@
 
 API Wrapper For Rust+ For ESP32 (OR ANY BOARD WITH WIFI AND C++)
 
-Join our community on Discord: [Rust+ ESP32 Discord](https://discord.gg/wCGueacS)
+Join our community on Discord: [Rust+ ESP32 Discord](https://discord.gg/pPyWFBSt2e)
