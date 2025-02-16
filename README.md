@@ -1,6 +1,9 @@
+
 # Rust+ API Wrapper for ESP32 (or any Wi-Fi-enabled board)
 
 This repository provides an API wrapper for Rust+ that allows communication between an ESP32 (or any board with Wi-Fi and C++) and a Rust server. With this wrapper, you can easily interact with the Rust game server, including sending messages and retrieving server data like the current time.
+
+![RustPlus Logo](https://github.com/Fakemayham084/rustplus_esp32/blob/main/rustpluslogo.png)
 
 ## Features
 - Connects to a Rust server using the Rust+ API.
@@ -62,7 +65,8 @@ void setup() {
 void loop() {
     // LOOP
     client.loop();
-} ```
+}
+```
 
 ### 2. **Send Message Script**
 
@@ -97,3 +101,9 @@ void loop() {
     client.loop();
 }
 ```
+
+## Join Our Discord Community!
+
+If you have questions or need support, feel free to join our Discord server using the invite code below:
+
+[Discord Invite Link](https://discord.gg/pPyWFBSt2e)
