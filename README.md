@@ -35,6 +35,8 @@ This repository provides an API wrapper for Rust+ that allows communication betw
 
 ## Code Examples
 
+The docs are better - https://rplus.fakemayham084.xyz/
+
 ### 1. **Get Current Time**
 
 This script connects to the server and gets the current time.
